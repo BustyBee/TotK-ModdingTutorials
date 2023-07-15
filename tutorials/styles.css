@@ -68,16 +68,27 @@ main{
     background-color: black;
 }
 
-p{
+p, li{
     font-size: 14pt;
     text-align: justify;
     line-height: 140%;
+}
+li {
+    margin: 0.5rem 0rem;
 }
 
 img{
     height: 300px;
     width: auto;
     padding: 0.5rem;
+}
+
+img.small{
+    height: 150px;
+}
+
+img.big{
+    height: 400px;
 }
 
 a{
